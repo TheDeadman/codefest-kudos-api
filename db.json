@@ -3,31 +3,19 @@
     {
         "id": "P123456",
         "name": "Jack Frost",
-        "points": 20,
-        "kudos": [
-          {
-            "comment": "Thank you so much for support my effort to keep heaters out of the break room.",
-            "commenter": "Frosty Snowman"
-          }
-        ]
-      },{
-        "id": "P123456",
-        "name": "Jack Frost",
-        "points": 15,
-        "kudos": [
-          {
-            "comment": "It was so great to meet you the other day.  Thank you for your guidance and suggestions on my new lighting career.",
-            "commenter": "Rudolf Reindeer"
-          }
-        ]
-      },{
-        "id": "P123456",
-        "name": "Jack Frost",
         "points": 15,
         "kudos": [
           {
             "comment": "Congratulations on 10 years of service!",
             "commenter": "Santa Claus"
+          },
+          {
+            "comment": "It was so great to meet you the other day.  Thank you for your guidance and suggestions on my new lighting career.",
+            "commenter": "Rudolf Reindeer"
+          },
+          {
+            "comment": "Thank you so much for support my effort to keep heaters out of the break room.",
+            "commenter": "Frosty Snowman"
           }
         ]
       },{

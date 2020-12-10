@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kudos-api
-        image: thedeadman/cfest:kudos-api-1.0.5
+        image: thedeadman/cfest:kudos-api-1.0.6
         ports:
         - containerPort: 3001
 ---
