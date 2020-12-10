@@ -1,0 +1,45 @@
+{
+  "associates": [
+    {
+        "id": "P123456",
+        "name": "Jack Frost",
+        "points": 13,
+        "kudos": [
+          {
+            "comment": "Great Help",
+            "commenter": "Ktaco"
+          }
+        ]
+      },{
+        "id": "P654321",
+        "name": "Jeff Frost",
+        "points": 12,
+        "kudos": [
+          {
+            "comment": "Great Help",
+            "commenter": "Ktaco"
+          }
+        ]
+      },{
+        "id": "P111111",
+        "name": "The Heat Meister",
+        "points": 16,
+        "kudos": [
+          {
+            "comment": "Great Help",
+            "commenter": "Ktaco"
+          }
+        ]
+      },{
+        "id": "P222222",
+        "name": "X Æ A-Xii",
+        "points": 18,
+        "kudos": [
+          {
+            "comment": "Great Help",
+            "commenter": "Ktaco"
+          }
+        ]
+      }
+  ]
+}

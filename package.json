@@ -1,0 +1,22 @@
+{
+  "name": "codefest-kudos-api",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDeadman/codefest-kudos-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDeadman/codefest-kudos-api/issues"
+  },
+  "homepage": "https://github.com/TheDeadman/codefest-kudos-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

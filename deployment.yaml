@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kudos-api-deployment
+spec:
+  replicas: 1
+  selector:
+      matchLabels:
+        app: kudos-api-app
+  template:
+    metadata:
+      labels:
+        app: kudos-api-app
+    spec:
+      containers:
+      - name: kudos-api
+        image: thedeadman/cfest:kudos-api-1.0.3
+        ports:
+        - containerPort: 3001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: kudos-api-app
+  name: kudos-api-service
+spec:
+  ports:
+    - port: 3040
+      targetPort: 3001
+  selector: 
+    app: kudos-api-app
+  type: LoadBalancer
